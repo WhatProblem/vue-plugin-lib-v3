@@ -1,4 +1,4 @@
-### vir-list-v3
+### vue3 插件 vir-list-v3
 
 #### 插件的安装
 
@@ -12,7 +12,7 @@ npm i vir-list-v3
 import virListV3Plugin from 'vir-list-v3';
 import 'vir-list-v3/index.css';
 
-Vue.use(virListV3Plugin);
+app.use(virListV3Plugin);
 ```
 
 #### 基本用法
