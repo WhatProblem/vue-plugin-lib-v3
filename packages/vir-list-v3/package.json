@@ -1,0 +1,27 @@
+{
+  "name": "vir-list-v3",
+  "version": "1.0.1",
+  "description": "the selector of virtual dom for big data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WhatProblem/vue-plugin-lib-v3.git"
+  },
+  "keywords": [
+    "vue3",
+    "select",
+    "virtual",
+    "dom",
+    "big",
+    "data"
+  ],
+  "author": "whatproblem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WhatProblem/vue-plugin-lib-v3/issues"
+  },
+  "homepage": "https://github.com/WhatProblem/vue-plugin-lib-v3#readme"
+}

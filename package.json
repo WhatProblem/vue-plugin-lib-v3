@@ -4,14 +4,24 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview"
+    "build": "vite build",
+    "build:tsc": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "lib": "rollup -c rollup.config.js",
+    "lib:esm": "rollup -c rollup.config.esm.js",
+    "lib:umd": "rollup -c rollup.config.umd.js"
   },
   "dependencies": {
+    "vir-list-v3": "^1.0.1",
     "vue": "^3.2.25"
   },
   "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.3.0",
     "@vitejs/plugin-vue": "^2.3.1",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.31.2",
+    "rollup-plugin-vue": "^6.0.0",
     "typescript": "^4.5.4",
     "vite": "^2.9.7",
     "vue-tsc": "^0.34.7"
